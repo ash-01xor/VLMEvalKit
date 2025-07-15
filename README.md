@@ -23,6 +23,9 @@ English | [简体中文](/docs/zh-CN/README_zh-CN.md) | [日本語](/docs/ja/REA
 
 **VLMEvalKit** (the python package name is **vlmeval**) is an **open-source evaluation toolkit** of **large vision-language models (LVLMs)**. It enables **one-command evaluation** of LVLMs on various benchmarks, without the heavy workload of data preparation under multiple repositories. In VLMEvalKit, we adopt **generation-based evaluation** for all LVLMs, and provide the evaluation results obtained with both **exact matching** and **LLM-based answer extraction**.
 
+## Update
+> We have added [Visual Spatial Reasoning (VSR) TACL'23](https://arxiv.org/abs/2205.00363) benchmark. Use 'VSR-zeroshot' as the dataset argument in run.py to evaluate
+
 ## 🆕 News
 
 > We have presented a [**comprehensive survey**](https://arxiv.org/pdf/2411.15296) on the evaluation of large multi-modality models, jointly with [**MME Team**](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) and [**LMMs-Lab**](https://lmms-lab.github.io) 🔥🔥🔥
